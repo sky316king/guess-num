@@ -1,4 +1,8 @@
 import random
+start = input('请决定随机数字范围开始值')
+end =input('请决定随机数字范围结束值')
+start = int(start)
+end = int(end)
 
 r = random.randint(1,100)
 count = 0
